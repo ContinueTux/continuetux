@@ -1,0 +1,116 @@
+README.txt for ContinueTux
+
+by Vaesea
+sophieballvaesea@proton.me
+https://gamejolt.com/@Vaesea
+
+Version 0.0.7 (in development)
+
+September 20, 2026
+ 
+
+NOTICE! THIS GAME IS UNDER CONSTRUCTION!
+Things you'll notice:
+
+  Bugs
+  Documentation is quite incomplete
+  No levels yet
+
+DESCRIPTION
+-----------
+  "ContinueTux" is a game similar to Nintendo's "Super Mario Bros."(tm)
+  Run and jump through multiple worlds, fighting off enemies by jumping
+  on them or bumping them from below.  Grab power-ups and Linux distributions
+  on the way.
+
+  It's meant to be a continuation of SuperTux 0.0.6 that's different from
+  SuperTux 0.1.0+.
+
+STORY
+-----
+  Tux and Gown are having a picnic in Antarctica, when suddenly Gown is
+  abducted! Tux must follow the path of clues across the lands to find
+  his girlfriend and save her!
+
+DOCUMENTATION
+-------------
+  Important documentation for "ContinueTux" is contained in multiple files.
+  Please see them:
+
+    AUTHORS.txt    - Credits for who made this game.
+    CHANGES.txt    - Changes since the previous versions of ContinueTux and changes between this and SuperTux 0.0.6.
+    COPYING.txt    - The GNU General Public License, which ContinueTux is under.
+    INSTALL.txt    - Instructions on requirements, compiling and installing.
+    README.txt     - (This file.)  Game story, usage, rules and controls.
+    TODO.txt       - A wish-list for this version of ContinueTux.
+
+RUNNING THE GAME
+----------------
+  Just double click the .exe or .x86_64 to begin.
+
+TITLE SCREEN
+------------
+  Press [ENTER] to begin a game.
+
+  Press [ESCAPE] or choose [Quit] to quit.
+
+  Use arrow keys to move between menu's items. Press [ENTER] or [SPACE] to validate
+  your choice.
+
+  Note: If you're playing ContinueTux in a window, you can also use
+  your window manager's close option (usually an "X" button on the window's
+  title bar) to quit. This works at ANY time.
+
+
+SCREEN LAYOUT
+-------------
+  UNDER CONSTRUCTION
+
+    +-------------------------------------------------+
+    |                                            O 93 | (O = Distro Icon)
+    |                                                 |
+    |                                                 |
+    |                                                 |
+    |                                                 |
+    |                                                 |
+    |                                                 |
+    |                                                 |
+    |                                                 |
+    |                                                 |
+    |                                                 |
+    +-------------------------------------------------+
+
+  Status
+  ------
+    The number of distros (CDs) you have collected is displayed at the upper
+    right.
+
+    Score and Lives were removed.
+
+PLAYING THE GAME
+----------------
+  Controls
+  --------
+    Joystick        Keyboard     Purpose
+    --------        --------     -------
+      Left            Left         Face/Move Left
+      Right           Right        Face/Move Right
+      Button-A        Space        Jump
+      Button-B        Control      Run/Fire
+      Down            Down         Duck
+
+  Pausing
+  -------
+    To pause the game, you can press the [P] key.
+    To unpause, press [P] again.
+
+  Quitting
+  --------
+    To quit ContinueTux altogether, you can use your window manager's
+    close command.  See the note in the "Title Screen" section, above.
+  
+THE END
+-------
+  Thanks for trying out ContinueTux.
+  
+  Vaesea <sophieballvaesea@proton.me>
