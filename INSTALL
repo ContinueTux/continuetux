@@ -53,6 +53,11 @@ REQUIREMENTS
     I'm not quite sure what this does, but my best understanding of it is that it translates
     Haxe code to C++ for it to run on Windows, Mac and Linux.
 
+  POLYMOD
+  -------
+    You don't need to install this yet as it's not even referenced in the Project.xml. However,
+    it will be used in the future for mod support.
+
 BUILDING UNDER LINUX
 --------------------
   -----------------------------------------------------------------
