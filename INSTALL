@@ -1,0 +1,110 @@
+INSTALL.txt for ContinueTux
+
+by Sophie Ball
+sophieballvaesea@proton.me
+https://gamejolt.com/@Vaesea
+
+Version 0.0.7 (in development)
+
+October 04, 2026
+
+REQUIREMENTS
+============
+  CONTROLS
+  --------
+    The game can be played with a keyboard. Right now, it's impossible to change the in-game keybinds.
+
+  HaxeFlixel
+  ----------
+    ContinueTux was programed using the "HaxeFlixel" library for the Haxe
+    Programming Language. This means that the game can theoretically run 
+    under any environment that HaxeFlixel supports.
+
+    (As of this program's release, this includes: Linux X11 (therefore also
+    Wayland), Windows 10+, MacOS, Android (unplayable), iOS (unplayable) and
+    HTML5. Flash used to be supported, I'm not sure if it still is)
+
+    HaxeFlixel, HXCPP, Lime, OpenFL, Flixel-Addons and (most importantly) Haxe
+    are required to build this project. It sounds like a lot, it really isn't.
+    All of these are installed if you follow the normal HaxeFlixel setup.
+
+    You can get started here:
+    https://haxeflixel.com/documentation/getting-started/
+
+  Flixel
+  ------
+    HaxeFlixel (also known as Flixel) is required.
+
+  Flixel-Addons
+  -------------
+    Flixel-Addons is also required to load Tiled levels.
+
+  Lime
+  ----
+    Lime is required to compile the game. It's "Assets" class is also used to load
+    the levels.txt.
+
+  OpenFL
+  ------
+    OpenFL is a dependency of HaxeFlixel.
+
+  HXCPP
+  -----
+    I'm not quite sure what this does, but my best understanding of it is that it translates
+    Haxe code to C++ for it to run on Windows, Mac and Linux.
+
+BUILDING UNDER LINUX
+--------------------
+  -----------------------------------------------------------------
+  Note: Read this entire section before you start issuing commands!
+  -----------------------------------------------------------------
+
+  First make sure all libraries listed earlier are installed.
+
+  Then, use the command "lime test linux -debug" to test the game
+  in debug mode.
+
+  If you want, you can use anything other than "-debug" such as "-release"
+  to build the game in release mode. This causes the HaxeFlixel intro to
+  run when the game starts, which tells you that it's a release build.
+
+  You can use "lime build linux" to build the game without automatically
+  launching the game.
+
+BUILDING UNDER WINDOWS
+----------------------
+  -----------------------------------------------------------------
+  Note: Read this entire section before you start issuing commands!
+  -----------------------------------------------------------------
+
+  First make sure all libraries listed earlier are installed.
+
+  Then, use the command "lime test windows -debug" to test the game
+  in debug mode.
+
+  If you want, you can use anything other than "-debug" such as "-release"
+  to build the game in release mode. This causes the HaxeFlixel intro to
+  run when the game starts, which tells you that it's a release build.
+
+  You can use "lime build windows" to build the game without automatically
+  launching the game.
+
+BUILDING UNDER MACOS
+--------------------
+  -----------------------------------------------------------------
+  Note: Read this entire section before you start issuing commands!
+  -----------------------------------------------------------------
+
+  First make sure all libraries listed earlier are installed.
+
+  Then, use the command "lime test mac -debug" to test the game
+  in debug mode.
+
+  If you want, you can use anything other than "-debug" such as "-release"
+  to build the game in release mode. This causes the HaxeFlixel intro to
+  run when the game starts, which tells you that it's a release build.
+
+  You can use "lime build mac" to build the game without automatically
+  launching the game.
+
+The End!
