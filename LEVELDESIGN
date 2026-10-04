@@ -1,0 +1,21 @@
+October 04, 2026
+
+This document explains how to make levels for ContinueTux using the Tiled Level Editor.
+
+STEPS
+-----
+1. Download the latest version of the Tiled Level Editor. It has to be the latest version, or, if you're editing a level, at least use the same version of Tiled that was used for that
+level. (Check level file). You need to learn how to use Tiled if you haven't already, it's really easy when you've learned it.
+2. Use the base level in "res/lvl/base.tmx". Make sure you continue to use the already-existing tiles.png for the tiles in the level that aren't objects.
+3. Put all objects in the specific layer it needs to be in. Most objects go in the "Objects" layer, enemies go in the "Enemies" layer. I wouldn't recommend creating any more layers, not
+even tile layers, unless you've added support for those layers in the code. Also be aware that pull requests that add more layers for no reason or just one level to the code will be 
+closed, it'd be better to add support for an "unlimited" amount of tile layers and/or object layers. Preferably, try to only use the 3 tile layers for tiles.
+4. Draw rectangles and put them in the "Solid" object layer to cover your tiles. Slopes are supported but unused for now and have a few minor bugs. These rectangles are converted to 
+objects (Solid.hx / SlopeSolid.hx) in-game.
+5. You can also draw rectangles in the "Level" layer. Only one checkpoint is supported for now, but multiple goals are supported (it'd be harder not to have multiple goal support). The
+rectangles need to have the specific class, make sure you type either "checkpoint" or "goal" (both without quotes) depending on the object.
+6. Make sure you test the levels in-game before submitting them to the repository... if you're going to submit them to the repository, that is.
+
+NOTES
+-----
+In short, make levels, have fun, you can submit them to the repository, I'm not strict at all about the quality (although there are limits)! It's all about having fun.
